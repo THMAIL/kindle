@@ -1,0 +1,102 @@
+2018-11-17 08:44:21,669 base.py[line:436] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-11-17 08:44:21,670 base.py[line:878] INFO Added job "main" to job store "default"
+2018-11-17 08:44:21,671 base.py[line:162] INFO Scheduler started
+2018-11-17 08:44:21,671 base.py[line:937] DEBUG Looking for jobs to run
+2018-11-17 08:44:21,671 base.py[line:1017] DEBUG Next wakeup is due at 2018-11-17 21:45:00-05:00 (in 46838.328633 seconds)
+2018-11-17 08:52:19,648 base.py[line:436] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-11-17 08:52:19,649 base.py[line:878] INFO Added job "main" to job store "default"
+2018-11-17 08:52:19,650 base.py[line:162] INFO Scheduler started
+2018-11-17 08:52:19,650 base.py[line:937] DEBUG Looking for jobs to run
+2018-11-17 08:52:19,650 base.py[line:1017] DEBUG Next wakeup is due at 2018-11-17 21:53:00-05:00 (in 46840.349564 seconds)
+2018-11-17 09:01:05,663 base.py[line:436] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-11-17 09:01:05,664 base.py[line:878] INFO Added job "main" to job store "default"
+2018-11-17 09:01:05,665 base.py[line:162] INFO Scheduler started
+2018-11-17 09:01:05,665 base.py[line:937] DEBUG Looking for jobs to run
+2018-11-17 09:01:05,665 base.py[line:1017] DEBUG Next wakeup is due at 2018-11-17 09:03:00-05:00 (in 114.334676 seconds)
+2018-11-17 09:03:00,000 base.py[line:937] DEBUG Looking for jobs to run
+2018-11-17 09:03:00,005 base.py[line:1017] DEBUG Next wakeup is due at 2018-11-18 09:03:00-05:00 (in 86399.998139 seconds)
+2018-11-17 09:03:00,005 base.py[line:123] INFO Running job "main (trigger: cron[day_of_week='0-6', hour='9', minute='3'], next run at: 2018-11-18 09:03:00 EST)" (scheduled at 2018-11-17 09:03:00-05:00)
+2018-11-17 09:03:00,012 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): heibaimanhua.com:80
+2018-11-17 09:03:01,867 connectionpool.py[line:393] DEBUG http://heibaimanhua.com:80 "GET /weimanhua/kbmh HTTP/1.1" 200 11402
+2018-11-17 09:03:02,125 base.py[line:144] INFO Job "main (trigger: cron[day_of_week='0-6', hour='9', minute='3'], next run at: 2018-11-18 09:03:00 EST)" executed successfully
+2018-11-17 09:05:18,259 base.py[line:436] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-11-17 09:05:18,260 base.py[line:878] INFO Added job "main" to job store "default"
+2018-11-17 09:05:18,260 base.py[line:162] INFO Scheduler started
+2018-11-17 09:05:18,260 base.py[line:937] DEBUG Looking for jobs to run
+2018-11-17 09:05:18,260 base.py[line:1017] DEBUG Next wakeup is due at 2018-11-18 09:03:00-05:00 (in 86261.739237 seconds)
+2018-11-17 09:07:35,516 base.py[line:436] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-11-17 09:07:35,517 base.py[line:878] INFO Added job "main" to job store "default"
+2018-11-17 09:07:35,517 base.py[line:162] INFO Scheduler started
+2018-11-17 09:07:35,517 base.py[line:937] DEBUG Looking for jobs to run
+2018-11-17 09:07:35,517 base.py[line:1017] DEBUG Next wakeup is due at 2018-11-17 09:09:00-05:00 (in 84.482293 seconds)
+2018-11-17 09:09:00,001 base.py[line:937] DEBUG Looking for jobs to run
+2018-11-17 09:09:00,005 base.py[line:123] INFO Running job "main (trigger: cron[day_of_week='0-6', hour='9', minute='9'], next run at: 2018-11-17 09:09:00 EST)" (scheduled at 2018-11-17 09:09:00-05:00)
+2018-11-17 09:09:00,011 base.py[line:1017] DEBUG Next wakeup is due at 2018-11-18 09:09:00-05:00 (in 86399.998098 seconds)
+2018-11-17 09:09:00,016 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): heibaimanhua.com:80
+2018-11-17 09:09:04,798 connectionpool.py[line:393] DEBUG http://heibaimanhua.com:80 "GET /weimanhua/kbmh HTTP/1.1" 200 11402
+2018-11-17 09:09:05,090 base.py[line:144] INFO Job "main (trigger: cron[day_of_week='0-6', hour='9', minute='9'], next run at: 2018-11-18 09:09:00 EST)" executed successfully
+2018-11-17 09:11:16,071 base.py[line:436] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2018-11-17 09:11:16,073 base.py[line:878] INFO Added job "main" to job store "default"
+2018-11-17 09:11:16,073 base.py[line:162] INFO Scheduler started
+2018-11-17 09:11:16,073 base.py[line:937] DEBUG Looking for jobs to run
+2018-11-17 09:11:16,073 base.py[line:1017] DEBUG Next wakeup is due at 2018-11-17 09:12:00-05:00 (in 43.926570 seconds)
+2018-11-17 09:12:00,000 base.py[line:937] DEBUG Looking for jobs to run
+2018-11-17 09:12:00,003 base.py[line:123] INFO Running job "main (trigger: cron[day_of_week='0-6', hour='9', minute='12'], next run at: 2018-11-17 09:12:00 EST)" (scheduled at 2018-11-17 09:12:00-05:00)
+2018-11-17 09:12:00,012 base.py[line:1017] DEBUG Next wakeup is due at 2018-11-18 09:12:00-05:00 (in 86399.998867 seconds)
+2018-11-17 09:12:00,013 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): heibaimanhua.com:80
+2018-11-17 09:12:00,357 connectionpool.py[line:393] DEBUG http://heibaimanhua.com:80 "GET /weimanhua/kbmh HTTP/1.1" 200 11402
+2018-11-17 09:12:00,932 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): heibaimanhua.com:80
+2018-11-17 09:12:16,869 connectionpool.py[line:393] DEBUG http://heibaimanhua.com:80 "GET /weimanhua/kbmh/151246.html HTTP/1.1" 522 6190
+2018-11-17 09:12:16,888 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): heibaimanhua.com:80
+2018-11-17 09:12:17,686 connectionpool.py[line:393] DEBUG http://heibaimanhua.com:80 "GET /weimanhua/kbmh/151246.html HTTP/1.1" 200 8266
+2018-11-17 09:12:17,760 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): read.html5.qq.com:80
+2018-11-17 09:12:18,228 connectionpool.py[line:393] DEBUG http://read.html5.qq.com:80 "GET /image?imgflag=7&imageUrl=http://abco1.heibaimanhua.com/wp-content/uploads/2018/11/20181108_5be407d0e3591.jpg&src=share HTTP/1.1" 200 39660
+2018-11-17 09:12:18,540 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): read.html5.qq.com:80
+2018-11-17 09:12:19,011 connectionpool.py[line:393] DEBUG http://read.html5.qq.com:80 "GET /image?imgflag=7&imageUrl=http://abco1.heibaimanhua.com/wp-content/uploads/2018/11/20181108_5be407d48688b.jpg&src=share HTTP/1.1" 200 45178
+2018-11-17 09:12:19,318 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): read.html5.qq.com:80
+2018-11-17 09:12:20,161 connectionpool.py[line:393] DEBUG http://read.html5.qq.com:80 "GET /image?imgflag=7&imageUrl=http://abco1.heibaimanhua.com/wp-content/uploads/2018/11/20181108_5be407d727aa7.jpg&src=share HTTP/1.1" 200 48020
+2018-11-17 09:12:20,477 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): read.html5.qq.com:80
+2018-11-17 09:12:20,957 connectionpool.py[line:393] DEBUG http://read.html5.qq.com:80 "GET /image?imgflag=7&imageUrl=http://abco1.heibaimanhua.com/wp-content/uploads/2018/11/20181108_5be407e1ee267.jpg&src=share HTTP/1.1" 200 96059
+2018-11-17 09:12:21,581 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): read.html5.qq.com:80
+2018-11-17 09:12:22,174 connectionpool.py[line:393] DEBUG http://read.html5.qq.com:80 "GET /image?imgflag=7&imageUrl=http://abco1.heibaimanhua.com/wp-content/uploads/2018/11/20181108_5be407e5906d6.jpg&src=share HTTP/1.1" 200 119883
+2018-11-17 09:12:22,966 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): read.html5.qq.com:80
+2018-11-17 09:12:23,537 connectionpool.py[line:393] DEBUG http://read.html5.qq.com:80 "GET /image?imgflag=7&imageUrl=http://abco1.heibaimanhua.com/wp-content/uploads/2018/11/20181108_5be407e8851a9.jpg&src=share HTTP/1.1" 200 92121
+2018-11-17 09:12:24,056 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): read.html5.qq.com:80
+2018-11-17 09:12:24,550 connectionpool.py[line:393] DEBUG http://read.html5.qq.com:80 "GET /image?imgflag=7&imageUrl=http://abco1.heibaimanhua.com/wp-content/uploads/2018/11/20181108_5be407ebc6bde.jpg&src=share HTTP/1.1" 200 50735
+2018-11-17 09:12:24,894 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): read.html5.qq.com:80
+2018-11-17 09:12:25,378 connectionpool.py[line:393] DEBUG http://read.html5.qq.com:80 "GET /image?imgflag=7&imageUrl=http://abco1.heibaimanhua.com/wp-content/uploads/2018/11/20181108_5be407eeef670.jpg&src=share HTTP/1.1" 200 45465
+2018-11-17 09:12:25,696 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): read.html5.qq.com:80
+2018-11-17 09:12:26,209 connectionpool.py[line:393] DEBUG http://read.html5.qq.com:80 "GET /image?imgflag=7&imageUrl=http://abco1.heibaimanhua.com/wp-content/uploads/2018/11/20181108_5be407f23d1e5.jpg&src=share HTTP/1.1" 200 77983
+2018-11-17 09:12:26,699 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): read.html5.qq.com:80
+2018-11-17 09:12:27,284 connectionpool.py[line:393] DEBUG http://read.html5.qq.com:80 "GET /image?imgflag=7&imageUrl=http://abco1.heibaimanhua.com/wp-content/uploads/2018/11/20181108_5be407f4d216a.jpg&src=share HTTP/1.1" 200 107867
+2018-11-17 09:12:27,915 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): read.html5.qq.com:80
+2018-11-17 09:12:28,362 connectionpool.py[line:393] DEBUG http://read.html5.qq.com:80 "GET /image?imgflag=7&imageUrl=http://abco1.heibaimanhua.com/wp-content/uploads/2018/11/20181108_5be407f758560.jpg&src=share HTTP/1.1" 200 34539
+2018-11-17 09:12:28,682 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): heibaimanhua.com:80
+2018-11-17 09:12:36,952 connectionpool.py[line:393] DEBUG http://heibaimanhua.com:80 "GET /weimanhua/kbmh/151358.html HTTP/1.1" 200 8240
+2018-11-17 09:12:37,036 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): heibaimanhua.com:80
+2018-11-17 09:12:37,381 connectionpool.py[line:393] DEBUG http://heibaimanhua.com:80 "GET /weimanhua/kbmh/151358.html HTTP/1.1" 200 8240
+2018-11-17 09:12:37,460 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): read.html5.qq.com:80
+2018-11-17 09:12:41,464 connectionpool.py[line:393] DEBUG http://read.html5.qq.com:80 "GET /image?imgflag=7&imageUrl=http://abco1.heibaimanhua.com/wp-content/uploads/2018/11/20181112_5be9999a9c2f5.jpg&src=share HTTP/1.1" 200 177997
+2018-11-17 09:12:42,265 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): read.html5.qq.com:80
+2018-11-17 09:12:42,793 connectionpool.py[line:393] DEBUG http://read.html5.qq.com:80 "GET /image?imgflag=7&imageUrl=http://abco1.heibaimanhua.com/wp-content/uploads/2018/11/20181112_5be9999b8bd65.jpg&src=share HTTP/1.1" 200 245292
+2018-11-17 09:12:43,762 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): read.html5.qq.com:80
+2018-11-17 09:12:44,364 connectionpool.py[line:393] DEBUG http://read.html5.qq.com:80 "GET /image?imgflag=7&imageUrl=http://abco1.heibaimanhua.com/wp-content/uploads/2018/11/20181112_5be9999c870c2.jpg&src=share HTTP/1.1" 200 215203
+2018-11-17 09:12:45,320 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): read.html5.qq.com:80
+2018-11-17 09:12:45,848 connectionpool.py[line:393] DEBUG http://read.html5.qq.com:80 "GET /image?imgflag=7&imageUrl=http://abco1.heibaimanhua.com/wp-content/uploads/2018/11/20181112_5be9999d71410.jpg&src=share HTTP/1.1" 200 173825
+2018-11-17 09:12:46,819 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): read.html5.qq.com:80
+2018-11-17 09:12:47,555 connectionpool.py[line:393] DEBUG http://read.html5.qq.com:80 "GET /image?imgflag=7&imageUrl=http://abco1.heibaimanhua.com/wp-content/uploads/2018/11/20181112_5be9999e435ad.jpg&src=share HTTP/1.1" 200 159062
+2018-11-17 09:12:48,393 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): read.html5.qq.com:80
+2018-11-17 09:12:48,946 connectionpool.py[line:393] DEBUG http://read.html5.qq.com:80 "GET /image?imgflag=7&imageUrl=http://abco1.heibaimanhua.com/wp-content/uploads/2018/11/20181112_5be9999f3c942.jpg&src=share HTTP/1.1" 200 216575
+2018-11-17 09:12:49,973 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): read.html5.qq.com:80
+2018-11-17 09:12:50,555 connectionpool.py[line:393] DEBUG http://read.html5.qq.com:80 "GET /image?imgflag=7&imageUrl=http://abco1.heibaimanhua.com/wp-content/uploads/2018/11/20181112_5be999a025e44.jpg&src=share HTTP/1.1" 200 148371
+2018-11-17 09:12:51,346 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): heibaimanhua.com:80
+2018-11-17 09:12:52,537 connectionpool.py[line:393] DEBUG http://heibaimanhua.com:80 "GET /weimanhua/kbmh/151225.html HTTP/1.1" 200 None
+2018-11-17 09:12:52,605 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): heibaimanhua.com:80
+2018-11-17 09:12:52,955 connectionpool.py[line:393] DEBUG http://heibaimanhua.com:80 "GET /weimanhua/kbmh/151225.html HTTP/1.1" 200 None
+2018-11-17 09:12:53,043 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): read.html5.qq.com:80
+2018-11-17 09:12:53,761 connectionpool.py[line:393] DEBUG http://read.html5.qq.com:80 "GET /image?imgflag=7&imageUrl=http://abco1.heibaimanhua.com/wp-content/uploads/2018/11/20181107_5be2eb72e094c.jpg&src=share HTTP/1.1" 200 258390
+2018-11-17 09:12:54,835 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): read.html5.qq.com:80
+2018-11-17 09:12:55,694 connectionpool.py[line:393] DEBUG http://read.html5.qq.com:80 "GET /image?imgflag=7&imageUrl=http://abco1.heibaimanhua.com/wp-content/uploads/2018/11/20181107_5be2eb738e954.jpg&src=share HTTP/1.1" 200 363710
+2018-11-17 09:12:57,025 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): read.html5.qq.com:80
+2018-11-17 09:12:57,682 connectionpool.py[line:393] DEBUG http://read.html5.qq.com:80 "GET /image?imgflag=7&imageUrl=http://abco1.heibaimanhua.com/wp-content/uploads/2018/11/20181107_5be2eb74443bd.jpg&src=share HTTP/1.1" 200 264044
+2018-11-17 09:12:58,868 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): heibaimanhua.com:80
